@@ -11,3 +11,6 @@ let rollDie=()=>(
     Math.floor((Math.random()*6)+1)//Implicit Returns
 );
 console.log(rollDie());
+let isEven=function(n){
+    return num%2===0;
+};
